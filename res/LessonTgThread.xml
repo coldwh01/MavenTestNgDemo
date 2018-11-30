@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!--  suite name="testAll" parallel="tests" thread-count="5">-->
+<!--<suite name="testAll" parallel="classes" thread-count="5">-->
+<!--<suite name="testAll" parallel="methods" thread-count="5">-->
+<suite name="testAll" parallel="false">		
+	<test name="case1" >
+		<classes>
+			<class name="com.guoxin.demo.LessonTgThread1"/>
+			<class name="com.guoxin.demo.LessonTgThread2"/>
+		</classes>
+		
+	</test>
+	
+</suite>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testAll" parallel="false">	
+	<test name="case2" >
+		<groups>
+			<dependencies>
+				<group name="a" depends-on="b c"></group>
+				<group name="d" depends-on="c"></group>
+			</dependencies>
+		</groups>
+		<classes>
+			<class name="com.guoxin.demo.LessonDepends"></class>
+		</classes>
+	</test>
+</suite>

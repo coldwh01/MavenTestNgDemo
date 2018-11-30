@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testAll" parallel="false">
+	<test name="case1">
+		
+		<groups>
+        <run>
+        <!-- 不执行该分组 -->
+            <exclude name="unTest" />
+         <!-- 执行该分组 -->
+            <!-- include name="enTest" /-->
+        </run>
+    	</groups>
+		<classes>
+			<class name="com.guoxin.demo.TestDBConnection">
+				<!--methods>
+	                <include name="runOtherTest4" /  执行该方法>
+	                <exclude name="runOtherTest4" /  不执行该方法>u
+	            </methods-->
+	         </class>
+		</classes>
+	</test>
+	
+	<!--  test name="case2">
+		<classes>
+			<class name="com.guoxin.demo.]DBConfig"/>
+			<class name="com.guoxin.demo.TestDBConnection"/>
+		</classes>
+	</test>-->
+</suite>

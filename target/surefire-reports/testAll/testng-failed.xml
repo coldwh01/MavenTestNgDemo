@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [testAll]">
+  <test name="case1(failed)">
+    <groups>
+      <run>
+        <exclude name="unTest"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.guoxin.demo.TestDBConnection">
+        <methods>
+          <include name="setUp"/>
+          <include name="runOtherTest6"/>
+          <include name="befClass"/>
+          <include name="runOtherTest7"/>
+        </methods>
+      </class> <!-- com.guoxin.demo.TestDBConnection -->
+    </classes>
+  </test> <!-- case1(failed) -->
+</suite> <!-- Failed suite [testAll] -->

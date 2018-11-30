@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="22" passed="22">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="85" started-at="2018-11-29T08:38:41Z" finished-at="2018-11-29T08:38:42Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="85" started-at="2018-11-29T08:38:41Z" finished-at="2018-11-29T08:38:42Z">
+      <class name="com.guoxin.demo.LessonTgThread1">
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="6" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="6" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="6" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="6" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="6" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="9" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="6" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="7" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="10" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="4" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="15" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="12" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="5" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="3" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="9" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="7" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="5" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="3" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="9" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="7" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="1" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="1" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="4" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="1" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="8" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:41Z" finished-at="2018-11-29T16:38:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="5" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test1" duration-ms="3" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="0" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test2" duration-ms="1" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="testThread()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="testThread" is-config="true" duration-ms="1" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testThread -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:com.guoxin.demo.LessonTgThread1@16e2e5]" name="test3" duration-ms="1" started-at="2018-11-29T16:38:42Z" finished-at="2018-11-29T16:38:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- com.guoxin.demo.LessonTgThread1 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

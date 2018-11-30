@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<suite name="testAll" parallel="false">	
+	<test name="case2" >
+		<classes>
+			<class name="com.guoxin.demo.LessonAnotation">
+				<methods>
+					<include name="testCase3"></include>
+					<include name="testCase1"></include>
+					<include name="testCase2"></include>
+				</methods>
+			</class>
+		</classes>
+	</test>
+</suite>

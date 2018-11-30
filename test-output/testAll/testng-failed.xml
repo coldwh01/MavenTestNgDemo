@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [testAll]">
+  <test name="case2(failed)">
+    <classes>
+      <class name="com.guoxin.demo.LessonDepends">
+        <methods>
+          <include name="test1"/>
+          <include name="test2"/>
+          <include name="test3"/>
+        </methods>
+      </class> <!-- com.guoxin.demo.LessonDepends -->
+    </classes>
+  </test> <!-- case2(failed) -->
+</suite> <!-- Failed suite [testAll] -->

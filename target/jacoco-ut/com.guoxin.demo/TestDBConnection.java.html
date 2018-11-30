@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>TestDBConnection.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">MavenTestNgDemo</a> &gt; <a href="index.source.html" class="el_package">com.guoxin.demo</a> &gt; <span class="el_source">TestDBConnection.java</span></div><h1>TestDBConnection.java</h1><pre class="source lang-java linenums">package com.guoxin.demo;
+
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+<span class="fc" id="L7">public class TestDBConnection {</span>
+	
+	TestBao testBao;
+	
+	@BeforeTest
+	public void setUp() {
+<span class="fc" id="L13">		System.out.println(&quot;@BeforeTest - setup&quot;);</span>
+<span class="fc" id="L14">		testBao = new TestBao();</span>
+<span class="fc" id="L15">	}</span>
+	
+	@BeforeClass
+	public void befClass() {
+<span class="fc" id="L19">		System.out.println(&quot;@BeforeClass - befClass&quot;);</span>
+<span class="fc" id="L20">	}</span>
+	
+	@Test(groups=&quot;enTest&quot;)
+    public void runOtherTest1() {
+<span class="fc" id="L24">        System.out.println(&quot;@Test - runOtherTest1&quot;);</span>
+<span class="fc" id="L25">    }</span>
+
+	@Test(groups=&quot;unTest&quot;)
+    public void runOtherTest2() {
+<span class="nc" id="L29">        System.out.println(&quot;@Test - runOtherTest2&quot;);</span>
+<span class="nc" id="L30">    }</span>
+    
+    @Test(enabled=true)
+    public void runOtherTest3() {
+<span class="fc" id="L34">        System.out.println(&quot;@Test - runOtherTest3&quot;);</span>
+<span class="fc" id="L35">    }</span>
+    
+    @Test(groups=&quot;enTest&quot;,enabled=false,expectedExceptions=TestException.class)
+    public void runOtherTest4() throws TestException {
+<span class="nc" id="L39">    	testBao.updateBao();</span>
+<span class="nc" id="L40">        System.out.println(&quot;@Test(expectedExceptions=TestException.class) - runOtherTest4&quot;);</span>
+<span class="nc" id="L41">    }</span>
+    
+    @Test(enabled=false,timeOut=1000)
+    public void runOtherTest5() {
+<span class="nc" id="L45">    	System.out.println(&quot;@Test(timeOut=1000) - runOtherTest5&quot;);</span>
+<span class="nc" id="L46">    	while(true) {   		</span>
+    	}
+        
+    }
+    
+    @Test
+    public void runOtherTest6() {
+<span class="fc" id="L53">        System.out.println(&quot;@Test - runOtherTest6&quot;);</span>
+<span class="fc" id="L54">        throw new RuntimeException();</span>
+    }
+    
+    @Test(dependsOnMethods={&quot;runOtherTest6&quot;})
+    public void runOtherTest7() {
+<span class="nc" id="L59">        System.out.println(&quot;@Test - runOtherTest3&quot;);</span>
+<span class="nc" id="L60">    }</span>
+    
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>

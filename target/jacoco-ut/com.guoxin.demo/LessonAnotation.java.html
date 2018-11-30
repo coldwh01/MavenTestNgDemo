@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="zh"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>LessonAnotation.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">MavenTestNgDemo</a> &gt; <a href="index.source.html" class="el_package">com.guoxin.demo</a> &gt; <span class="el_source">LessonAnotation.java</span></div><h1>LessonAnotation.java</h1><pre class="source lang-java linenums">package com.guoxin.demo;
+
+import org.testng.annotations.AfterClass;
+import org.testng.annotations.AfterGroups;
+import org.testng.annotations.AfterMethod;
+import org.testng.annotations.AfterSuite;
+import org.testng.annotations.AfterTest;
+import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeGroups;
+import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.BeforeSuite;
+import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
+
+<span class="nc" id="L15">public class LessonAnotation {</span>
+	
+	@BeforeSuite
+	public  void suiteBefore() {
+<span class="nc" id="L19">		System.out.println(&quot;--suiteBefore is running&quot;);</span>
+<span class="nc" id="L20">	}</span>
+	@AfterSuite
+	public  void suiteAfter() {
+<span class="nc" id="L23">		System.out.println(&quot;--suiteAfter is running&quot;);</span>
+<span class="nc" id="L24">	}</span>
+	
+	
+	@BeforeTest
+	public  void beforeTest() {
+<span class="nc" id="L29">		System.out.println(&quot;--beforeTest is running&quot;);</span>
+<span class="nc" id="L30">	}</span>
+	@AfterTest
+	public  void afterTest() {
+<span class="nc" id="L33">		System.out.println(&quot;--afterTest is running&quot;);</span>
+<span class="nc" id="L34">	}</span>
+	
+	
+	@BeforeClass
+	public  void beforeClass() {
+<span class="nc" id="L39">		System.out.println(&quot;--beforeClass is running&quot;);</span>
+<span class="nc" id="L40">	}</span>
+	@AfterClass
+	public  void afterClass() {
+<span class="nc" id="L43">		System.out.println(&quot;--afterClass is running&quot;);</span>
+<span class="nc" id="L44">	}</span>
+	
+	
+	@BeforeMethod
+	public  void beforeMethod() {
+<span class="nc" id="L49">		System.out.println(&quot;--beforeMethod is running&quot;);</span>
+<span class="nc" id="L50">	}</span>
+	@AfterMethod
+	public  void afterMethod() {
+<span class="nc" id="L53">		System.out.println(&quot;--afterMethod is running&quot;+&quot;\n&quot;);</span>
+<span class="nc" id="L54">	}</span>
+	
+	
+	@BeforeGroups
+	public  void beforeGroups() {
+<span class="nc" id="L59">		System.out.println(&quot;--beforeGroups is running&quot;);</span>
+<span class="nc" id="L60">	}</span>
+	@AfterGroups
+	public  void afterGroups() {
+<span class="nc" id="L63">		System.out.println(&quot;--afterGroups is running&quot;+&quot;\n&quot;);</span>
+<span class="nc" id="L64">	}</span>
+	
+	
+	
+	@Test(groups=&quot;unTest&quot;)
+	public void testCase1() {
+<span class="nc" id="L70">		System.out.println(&quot;testCase1 is running&quot;);</span>
+<span class="nc" id="L71">	}</span>
+	@Test(groups=&quot;unTest&quot;)
+	public void testCase2() {
+<span class="nc" id="L74">		System.out.println(&quot;testCase2 is running&quot;);</span>
+<span class="nc" id="L75">	}</span>
+	@Test
+	public void testCase3() {
+<span class="nc" id="L78">		System.out.println(&quot;testCase3 is running&quot;);</span>
+<span class="nc" id="L79">	}</span>
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.5.201505241946</span></div></body></html>
