@@ -24,6 +24,10 @@ public class LessonTgThread2 {
 	public void t3() {
 		System.out.println(current.getId()+"--run t3");
 	}
+	@Test
+	public void t4() {
+		System.out.println(current.getId()+"--run t4");
+	}
 	
 
 }
